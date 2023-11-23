@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            height: 100px;
+            background-color: aqua;
+        }
+        .two{
+            height: 100px;
+            background-color: red;
+        }
+        @media screen and (max-width:480px) {
+            #one-1{
+                width: 100%;
+            }
+            #one-2{
+                width: 100%;
+            }
+            #one-3{
+                width: 100%;
+            }
+            #one-4{
+                width: 100%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width:481px) and (max-width:768px) {
+            #one-1{
+                width: 50%;
+            }
+            #one-2{
+                width: 50%;
+            }
+            #one-3{
+                width: 50%;
+            }
+            #one-4{
+                width: 50%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media (min-width:769px) and (max-width:1024px) {
+            #one-1{
+                width: 25%;
+            }
+            #one-2{
+                width: 50%;
+            }
+            #one-3{
+                width: 25%;
+            }
+            #one-4{
+                width: 50%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (min-width:1025px) {
+            #one-1{
+                width: 25%;
+            }
+            #one-2{
+                width: 25%;
+            }
+            #one-3{
+                width: 25%;
+            }
+            #one-4{
+                width: 25%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="main">
+        <div class="two" id="one-1">1</div>
+        <div class="two" id="one-2">2</div>
+        <div class="two" id="one-3">3</div>
+        <div class="two" id="one-4">4</div>
+    </div>
+</body>
+</html>

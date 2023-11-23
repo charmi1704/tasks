@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: aliceblue;
+            margin-top: 20px;
+        }
+        .head{
+            height: 50px;
+            display: flex;
+        }
+        .logo{
+            height: inherit;
+            width: 20%;
+            color: black;
+        }
+        .link{
+            height: inherit;
+            width: 80%;
+            color: black;
+        }
+        input{
+            /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAB6CAMAAAC/Z0whAAAAVFBMVEX///9sbGxpaWlkZGRhYWFeXl7l5eXp6el6enqZmZnw8PCWlpaIiIj09PTf39/6+vqBgYHFxcVxcXHQ0NC2tragoKBZWVmrq6uPj4+8vLzW1tZUVFTAX9JfAAAEp0lEQVRoge2bW5viIAyGLQF7sOfWaXX+///cah2fXfkCAWv3Yjc3c1N5IeREYA4HkaTDZTqVWZ8kfVaepstwlP0uTq5ja7QmUiq5i1KKSJtsGpoP0Johp4WVAFmwNHfVtrzjlGhCtCdVq7zejlfP5MStQtQOm/GgMtFC2+v7vCrXQt6daeb0TWCnBPr8g0nTO4ZbzSaMdxOdxbvoELrAxzL1JRI4RixwFZNHAU/RwMVTsvDNbNoojf6IotAY1GRvAW+bWQQCA5yQQaogz2zfBi7IPmCV85sqfSBbsflM2jfWQzyf0UkIHJxuocgkWVsu0maJdgddPYqAhUOlSvfleE0flt+k9WXuXVAS5ZKSHWHJgJ1lDdUw88FQ9QK3vHA6VfrEZPn0zGZQOnuBFTdf3TpSQsGGRO2tRXJMVKZz/+7KqFZlHmCN50qZfz+YXKo9U8VmI8s+4xdepfNHV+j7ZpIAlxIFIsmZn+ESpUAO6VpkjXZf+w38KSPSkXaUsWdADIjHi5zgCOznDdJJWGZterAvX+wQA9CJzw9f5QoWSWxAn+35OTTCCNgZNgo0YHomuNotwM58M2oFClFzKHDJ5/YwnEuCT/1x2BawSMUUA3b95g3DUJCPYQ+zIzEFGuoqIBtg/zjavqHCqtyHgGLXwLBje2O4a6xytogEQ/PFUj/vuW6xi0EF091kzUxHnupTm1ii7062qUYedqveGgme7uzcKCn9kDQgzaKhMnticUAUoOFxEqgilpjb7oH8zFLElkQYAvYn7q/V/S1nQ+8Ah3o01P4RwE7IrkLTJdIoByK5uBj/Uzo7C8FIDrJVpOnYpoqzUAoyclR7tpJm5INNdB+LOLmCqgNbvW3Tqo8hAqPvcWU1gkIzIienoLJnTryoQo6odEDxyJ7M0SkgeJFgick3F7zQISUJJYIuIq8p1AUQttaeYnu/0+SteLjIV1BwrVAj4Zs/ZYOzjqy19hTUCnYd0NCuJ1TKGwGw4+W0PtQ4kDdmcSvYHUZge2VBylY5wT6Zp00GF7koVnDIanII9CWgI+4gUu89LKct7q570zoy19tMfa2yC9PUxdn/d4FdpPtce8dk65br6JI/xQ64Z7mIyRjmtfziutZaUrhg41lVS5MVgYoxMWwvX1a3NInrOkFT3l2L1VuKujsnxnX/I7xIOrJ6XedNN1HrH891Uy8slHBjNkZUL8wD3our7ZG89QQjEyFym/vAFSncyw2R0jo7324vpcgNzUeK7ELekGyDPPZbbaYSBPRVzt+7I+skcDe5jVDyI/7ofmD1Mq5hY0cAspokr6xuQiYvDhdOKeLos0gxOVLgc0BN5/tebYI8VF3pvPpXZNrxJxfyyLB2TTq2Sw2Aivxlde1U/1bSotNODPL25vHc9mQ0/byyIDLUZ3n3Og6PpPCmVFGvTy0XKefzONSwrujYRwURSJn8DSRXuXwOedkf+RdW6djLDR+eCpHqY0g+FPwTyM/tJYc0AY83NkFqcQMlAoksluLem8YjPwsESP1hoIX8PPAFGflmOB75Obd4Qeqdgc8ro/2AD+SewDsy5F3aJsivnYGHwwb/i/Ff/svhF1l5NbG+7MHiAAAAAElFTkSuQmCC); */
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+        .line{
+            height: 30px;
+            background-color: forestgreen;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .m1{
+            height: 200px;
+            background-color: forestgreen;
+            display: flex;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        h3{
+            margin-left: 20px;
+            color: aliceblue;
+            height: inherit;
+        }
+        h1{
+            height: inherit;
+        }
+        .m2{
+            height: 200px;
+            display: flex;
+            margin-top: 50px;
+        }
+        .m{
+            height: 200px;
+            width: 25%;
+            color: black;
+        }
+        .i{
+            height: 200px;
+            margin-left: 50px;
+        }
+        .img{
+            height: inherit;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <div class="head">
+        <div class="logo">Westerville Public Library</div>
+        <div class="link">
+            <td>Search the</td>
+            <td>
+                <select name="" id="">
+                <option value="catalog">catalog</option>
+            </select>
+            </td>
+            <td>by</td>
+            <td>
+                <select name="" id="">
+                    <option value="">keyword</option>
+                </select>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </div>
+    </div>
+    <div class="line">
+        <select name="" id="">
+        <option value="">Books, Movies & More</option>
+    </select>
+    <select name="" id="">
+        <option value="">Services</option>
+    </select>
+    <td>Events</td>
+    </div><br><br>
+    <div class="main">
+        <div class="m1">
+            <img src="image/busi.png" alt="">
+            <img src="image/business-solutions.png" alt="">
+            <p>
+            <h3>MEET THE AUTHOR</h3>
+            <h1>FIONA DAVIS</h1>
+            <tr>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati architecto nulla distinctio consequuntur sequi, dolor ullam voluptatum iusto modi tempora eos eum nisi. Perspiciatis architecto accusantium, facere temporibus voluptas dignissimos?</tr>
+        </p>
+        </div>
+        <div class="m2">
+            <div class="m">
+                <h2>Level Up</h2>
+                <tr>with your library card</tr><br><br>
+                <tr>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, neque libero. Porro omnis neque, laborum dolor quod voluptates aliquid animi iste magnam distinctio, id impedit nam, numquam ducimus doloribus illum.</tr>
+            </div>
+            <div class="i">
+                <img src="image/balloons-2331488_640.jpg" alt="">
+                <img src="image/hot-air-balloon-2411851_640.jpg" alt="">
+                <img src="image/hot-air-balloon-736879_1280.jpg" alt="">
+            </div>
+        </div>
+</body>
+</html>

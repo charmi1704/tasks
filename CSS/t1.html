@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one {
+            height: 800px;
+            /* width: 75%; */
+            background-image: url(img/i1.svg);
+            background-size: cover;
+            display: flex;
+        }
+
+        .head {
+            height: 50px;
+            word-spacing: 50px;
+        }
+
+        main {
+            height: 200px;
+            display: flex;
+        }
+        
+        a {
+            /* color: black; */
+            text-decoration: none;
+            font-size: 33px;
+            letter-spacing: 2px;
+            line-height: 28px;
+            color: #121212;
+            font-weight: 500;
+            font-family: "Roboto";
+        }
+
+        h3 {
+            /* color: coral; */
+            font-size: 33px;
+            letter-spacing: 2px;
+            line-height: 8px;
+            color: #ff4b00;
+            font-family: "Myriad Pro";
+            text-align: left;
+        }
+
+        p {
+            /* text-align: left;
+            overflow: inherit;
+            color: black; */
+            width: 1256px;
+            height: 167px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #122341;
+            font-weight: 300;
+            font-family: "Roboto";
+        }
+
+        h1 {
+            /* color: black; */
+            font-size: 153px;
+            letter-spacing: 6px;
+            line-height: 355px;
+            color: #000b2c;
+            font-weight: 500;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            text-align: left;
+        }
+
+        #o1 {
+            background-color: coral;
+            color: aliceblue;
+        }
+
+
+        .m2 {
+            height: 1000px;
+            width: 50%;
+            background-image: url(img/i4.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            left: 50%;
+            display: flex;
+        }
+
+        #p1 {
+            margin: 300px;
+            margin-right: 50px;
+            font-size: 19px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-family: "Myriad Pro";
+            text-align: right;
+        }
+
+        .m3 {
+            height: 1000px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-image: url(img/i3.svg);
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            /* float: left; */
+            position: relative;
+            right: 100px;
+            display: flex;
+        }
+
+        #p2 {
+            /* color: aliceblue; */
+            margin: 300px;
+            margin-left: 50px;
+            font-size: 19px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-family: "Myriad Pro";
+        }
+
+        .m4 {
+            height: 1000px;
+            width: 50%;
+            background-image: url(img/i4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            left: 50%;
+            display: flex;
+        }
+
+        #p3 {
+            margin: 300px;
+            margin-right: 50px;
+            font-size: 19px;
+            letter-spacing: 1px;
+            line-height: 35px;
+            color: #ffffff;
+            font-family: "Myriad Pro";
+            text-align: right;
+        }
+
+        /* .c1 {
+            font-size: 125px;
+            letter-spacing: 5px;
+            line-height: 113px;
+            color: #000b2c;
+            font-weight: 700;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            position: relative;
+            bottom: 750px;
+        } */
+
+        .c2 {
+            font-size: 125px;
+            letter-spacing: 5px;
+            line-height: 113px;
+            color: #00194b;
+            font-weight: 700;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            position: relative;
+            height: inherit;
+        }
+
+        .c3 {
+            font-size: 125px;
+            letter-spacing: 5px;
+            line-height: 113px;
+            color: #000b2c;
+            font-weight: 700;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            position: relative;
+            bottom: 750px;
+        }
+
+        .five {
+            height: 500px;
+            border: 5px solid black;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        #i1 {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        #h1 {
+            font-size: 100px;
+            letter-spacing: 4px;
+            line-height: 166px;
+            color: #122341;
+            font-weight: 500;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            text-align: right;
+        }
+
+        #h3 {
+            height: 50px;
+            font-size: 50px;
+            letter-spacing: 2px;
+            line-height: 61px;
+            color: #122341;
+            font-weight: 700;
+            font-family: "Roboto";
+            text-align: center;
+            background-color: rgba(255, 127, 80, 0.253);
+            border: 2px solid coral;
+        }
+
+        #h11 {
+            font-size: 88px;
+            letter-spacing: 4px;
+            line-height: 61px;
+            color: #122341;
+            font-weight: 700;
+            font-family: "Cormorant Garamond";
+            text-align: center;
+        }
+
+        #p11 {
+            font-size: 21px;
+            letter-spacing: 1px;
+            line-height: 28px;
+            color: #122341;
+            font-family: "Myriad Pro";
+            text-align: center;
+        }
+
+        #h12 {
+            font-size: 88px;
+            letter-spacing: 4px;
+            line-height: 28px;
+            color: #000b2c;
+            font-weight: 700;
+            font-family: "Cormorant Garamond";
+            text-align: center;
+        }
+
+        .s1 {
+            margin-left: 30%;
+        }
+
+        .s2 {
+            width: 664px;
+            height: 786px;
+            background-color: #000b2c;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <div class="head">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Menu</a>
+            <a href="">Blog</a>
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="main">
+            <div class="m1">
+                <h1>Coffee</h1>
+                <h3>Everything You Love About Coffee</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Nemo voluptates at dolor, et nihil
+                    molestias nisi optio, <br> tempore numquam sapiente nobis esse praesentium aut <br> recusandae
+                    tenetur unde, explicabo vero. Harum?</p>
+                <a href="" id="o1">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="two" style="display: flex;">
+        <div class="c1">
+            <h1>Dark Coffee</h1>
+            <a href="" id="o1">Order Now</a>
+        </div>
+        <!-- <img src="img/i2.png" alt=""> -->
+        <div class="m2" >
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis exercitationem quidem,
+                ex eaque eum quisquam repellat sed, cum enim expedita dolorum laborum architecto accusamus sapiente esse
+                repudiandae error corrupti soluta accusantium? Nam, quo ab ipsa facere repellendus ullam totam assumenda
+                explicabo provident laborum ipsum id! Maxime harum molestiae, quod id nisi fuga illum inventore veniam
+                in sapiente hic sunt incidunt culpa quibusdam minima necessitatibus consequatur placeat voluptates
+                molestias. Aut corporis quam numquam reprehenderit ex recusandae quibusdam veritatis. Itaque, harum
+                adipisci. At quisquam tempore libero quo blanditiis hic pariatur sit, eligendi aliquam excepturi
+                deleniti neque magni voluptatibus autem, aliquid facilis.</p>
+        </div>
+    </div>
+    <div class="three" style="display: flex;">
+        <div class="m3">
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptate velit doloribus eius
+                error? Ad voluptas error, excepturi at id quaerat eum aliquam distinctio quo nulla repellendus esse
+                obcaecati beatae aperiam optio temporibus dicta aspernatur ipsam iste qui nisi voluptates architecto,
+                nemo ipsum. Incidunt suscipit non id beatae atque sint assumenda fugiat, rerum placeat fugit molestiae,
+                omnis et iure? Consectetur perferendis placeat accusamus? Distinctio maxime molestias, quaerat sapiente
+                quos fuga sunt perspiciatis labore. Quis, quo! Voluptates nesciunt quae, ab incidunt soluta, eligendi
+                quidem laudantium deserunt corporis rem esse veniam magnam ratione officia veritatis quia laborum. Autem
+                asperiores consectetur natus laborum.</p>
+        </div>
+        <div class="c2">
+            <h1>Cold Coffee</h1>
+            <a href="" id="o1">Order Now</a>
+        </div>
+    </div>
+    <div class="four">
+        <div class="m4">
+            <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptate velit doloribus eius
+                error? Ad voluptas error, excepturi at id quaerat eum aliquam distinctio quo nulla repellendus esse
+                obcaecati beatae aperiam optio temporibus dicta aspernatur ipsam iste qui nisi voluptates architecto,
+                nemo ipsum. Incidunt suscipit non id beatae atque sint assumenda fugiat, rerum placeat fugit molestiae,
+                omnis et iure? Consectetur perferendis placeat accusamus? Distinctio maxime molestias, quaerat sapiente
+                quos fuga sunt perspiciatis labore. Quis, quo! Voluptates nesciunt quae, ab incidunt soluta, eligendi
+                quidem laudantium deserunt corporis rem esse veniam magnam ratione officia veritatis quia laborum. Autem
+                asperiores consectetur natus laborum.</p>
+        </div>
+        <div class="c3">
+            <h1>Hot Coffee</h1>
+            <a href="" id="o1">Order Now</a>
+        </div>
+    </div>
+    <div class="five">
+        <div>
+            <img src="img/1.png" alt="" id="i1">
+            <!-- <img src="img/2.png" alt="" id="i2"> -->
+        </div>
+        <div>
+            <h1 id="h1">Gift Voucher</h1>
+            <h3 id="h3">1 Cup of Coffee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor esse sapiente atque possimus. Ad autem
+                quaerat est vero, dignissimos maiores nihil nemo totam impedit nulla ipsam fugit facilis et architecto.
+            </p>
+        </div>
+    </div>
+    <div class="six">
+        <h1 id="h11">About Us</h1>
+        <p id="p11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos delectus, commodi minus cupiditate nam
+            quod ipsam eum fugit, iusto minima, aliquam quia eius aspernatur et recusandae. Omnis blanditiis
+            reprehenderit repellat provident iure! Sequi eum blanditiis eos distinctio quam tempora, modi itaque facere
+            molestias consequuntur labore aliquam minima necessitatibus ab voluptate et voluptatem aperiam dolore rem
+            repudiandae, numquam ipsa? Eius deleniti quod animi unde, architecto soluta itaque reiciendis necessitatibus
+            amet libero iste odio, vitae explicabo voluptatum laboriosam omnis recusandae maiores voluptatem eos
+            repellat voluptatibus, nostrum modi. Iusto ipsa repellendus incidunt, porro sequi facilis. Nisi quisquam
+            totam dolorem nihil cum ipsam voluptate!</p>
+        <p id="p11">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iste voluptatibus alias explicabo,
+            corrupti, delectus magnam pariatur itaque, quasi adipisci doloribus quis nemo! Eum itaque quis facilis eaque
+            fugiat ipsam possimus deserunt, ad, consequatur labore ut officia exercitationem esse vel consequuntur hic
+            ducimus est libero. Non aperiam cum reprehenderit suscipit sint quidem dolorum assumenda molestias, vel
+            maiores dolor quos commodi repellat qui pariatur ut id sunt voluptatum sapiente est, unde eaque perferendis?
+            Tenetur quis iusto cupiditate nostrum eos nobis nulla vitae repellendus aperiam autem quasi ipsum, numquam
+            dignissimos voluptatibus tempora esse, similique adipisci maxime nihil qui omnis, corrupti officia
+            distinctio. Quasi quis praesentium, rerum vitae doloribus ad explicabo dolorem, cupiditate blanditiis
+            exercitationem provident quod ut repellendus eius fuga quisquam dolore, debitis quia numquam saepe dolor
+            distinctio repellat voluptate? Tempora quo enim ut reiciendis pariatur veritatis aliquid, at temporibus!
+            Provident ad libero hic quos nam mollitia quaerat laboriosam officia, eius aliquam!</p>
+    </div>
+    <div class="seven">
+        <h1 id="h12">Customer Reviews</h1>
+        <div class="s1">
+            <img src="img/5.png" alt="">
+        </div>
+        <div class="s2">
+            <div id="s21">
+                <h1 id="sh1">John peter</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium qui quas cumque quisquam
+                    adipisci vero temporibus maiores dolor iusto impedit minima incidunt, dolorem quo assumenda deleniti
+                    expedita nostrum, ratione et!</p>
+            </div>
+            <div id="s22">
+                <h1 id="sh1">Ella Thomson</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore, doloribus, accusantium
+                    laboriosam maiores natus aliquam, reprehenderit vel temporibus ullam ipsam repellendus doloremque
+                    minus soluta quibusdam ratione incidunt esse dolorum.</p>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

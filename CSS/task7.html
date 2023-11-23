@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            height: 50px;
+            background-color: aliceblue;
+            display: flex;
+        }
+        .logo{
+            height: inherit;
+            width: 30%;
+            background-color: aliceblue;
+            display: flex;
+        }
+        .link{
+            height: inherit;
+            word-spacing: 50px;
+        }
+        input{
+            border: none;
+            background-color: aliceblue;
+        }
+        .one{
+            background-image: url(https://cdn-icons-png.flaticon.com/512/3410/3410475.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .main{
+            height: 500px;
+            margin: 0;
+            background-image: url(https://images7.alphacoders.com/343/343820.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .two{
+            color: rgb(102, 169, 172);
+            align-items: center;
+            justify-content: center;
+        }
+        
+        button{
+            margin-left: 50%;
+            background-color: darkorange;
+            border: 0;
+        }
+        .footer{
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .f1{
+            height: inherit;
+            width: 20%;
+            margin-left:20px ;
+        }
+        .f2{
+            height: inherit;
+            width: 20%;
+        }
+        .f3{
+            height: inherit;
+            width: 20%;
+        }
+        .f4{
+            height: inherit;
+            width: 20%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+        }
+        .s1{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbVwpzpDgSEc04JYWrOrhNVb-IOypIBTzBpg&usqp=CAU);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="head">
+            <div class="logo">
+                <img src="https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png" alt="logo">Logo
+            </div>
+            <div class="link">
+                <a href="">Home</a>
+                <a href="">Portfolio</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Blog</a>
+                <a href="" class="s1">Search</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="two">
+                <h1 align="center">GOOD DESIGN IS GOOD BUSINESS</h1>
+                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure officiis consequuntur accusamus doloribus nihil praesentium omnis fugit? <br> Quia amet fugit labore inventore similique a nemo sit maiores exercitationem, incidunt numquam?</p>
+                <!-- <input type="button" value="LEARN MORE" id="one" align="center"> -->
+                <button align="center">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="m1">
+            <a href="">OUR SERVICES</a>
+        </div>
+        <div class="footer">
+            <div class="f1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEUySl7///+E2/9UwOvm6e7O1eAwSF3u8PU5UmYfPVTc4eglQVcVN0/g5eu6wcbn6uzT2N7W8v+lrLOZoqry+v6N3v+E0PGs5v8qRFm65fhJveqqsrny8/RufImRnKbFy9CFkZtcbn1SZXZFWmx3hJDL0NQLM0yIlJ571vthx/DY3eZ72f9szfWxusJhcYCnsLnYdvv9AAALKklEQVR4nOXdW4PqKBIAYDLbjSB4mXYv7DExF2179sw68///3ZJ4bQ1QRcDgTj2dF6f9pggFSIBk0SOflYf1qirqptkyRhjbNk1dVKv1oZzl8f88ifjfzhflalczKTkXQilKKTmG/pdSQnAuJat3q3IRExpLOJtXNdMyDSO2aKmcs7qazyJ9kxjC2bpggrtsd04uWLGOoQwtzMsvJoWicN1FSZWQ7KsM3WKDChfzQucCj7th6twX80XILxVOmM8LytUA3TkUp8U8XCZDCZcVD8I7I3m1DPTNggjzdSPD8U5I2ayDJDKAcLEhAdN3Y+RkE+CJHCycFmJQ32ILKkQxHVm4rPcx0ncNta8HPpCDhMsi+OPXY5TFIOMAoW6f8X2dcVBb9RbmlUQMy4YFVbLy7ld9hWsVrX/pNQq1fqrws+FP5B2DN5/PE1ZR6p8rFK+eJCyf20CvoZtq+QRhvpPj+Dqj3KF7HKzwk4nRfG0Ihn0akcINHy+Bx6B8E1G4aEYHtsQGNR7HCEs6Rhf6GIpiOhyE8COBBB6D8o8YwuL5Rd4cvAguzLfj9qH3IbbQsgEULlkaj+A1FAPOqWDCUqUG1ETgAAckPOxT6WNug+4PoYRrOTbGEBIyowIIP1LqRL8HpGq4hZt0gZroHsI5hZtUm+gxpJPoEibcRI/hbKgO4Tp1oCY6uhu78JB2Ez2GtBcNq7BMsg7eB91bS79NuHzaguiwoMo2gLMI8+TGoqZQzDIMtwi3rwLUxK2PsEhrumQPYZ4vGoXJF8LvYS6LJmH5WkBNNHWoBuHCtiFG8LHC8uBQaliBMwgbSy8jVvOxYmMhqgYjtM0nlNfvI4FiZ/k/b5hn9Ao/beuGArGSFzxWtnbKexf8+4Q5s41lBgnzt7e3IbtkbEJCewt/n3BnrYSDhG9tDPi8VUjErucjPcLSPqFIWEhkT8noETrG24OEEw2cDPi8Q0jV40cehZVjtDasp5kMArqERDx29A9Caz86XDgwXMKe/vRBaKv16Qt76v690L0wcxL+Giv+bQiY8HHZ5k6Yu+eEJ+Evv8eJ334Y4u8wIVG5VejqZq7Cf/wSJ/7zN0NAhfedzXfhFLCTJK7wNxMQLKRyahEWgIWLuEJjCsFCogqzcAnZ7BRVaE4hXEjF0iiEpDCu0JxCuPAuibfCJWiFO6bQkkKEkMilQViDlg9jCi1AjFDV/cLpHvLpmEJbCjFCsp/2CkFPYVShDYgS3j6JV+ECuAIcT/jfYEIiFj1C2zrWc4RWIFK4eRTmBPhDUzShPYU4ISX5gxD8a280oR2IE95MMS5C57wwttCRQqTwOk88C2HVPqbQAUQKr1X/LKzAPxZGErpSiBVeluZPwhz+U1McobXY+wgJz78J52MLLUNuX+H8mxA4nokmdKcQLTyPa47CBWLTRRShO4VoITn9oEiwjTSKEJBCvPDUTAm2kUYRAlKIF56aaScErCFGFUJSiBee1hU7IWpbQgQhJIUewuPmhU74hflceCEohR5C8XURWn/zjS8EAT2ElJ2FM9Qey+BC53jNV0jk7CRcoz4WXAgD+gjF+iTE1IrwQmAKfYRdvSDYxzC4EAj0EXYPohbOcC8uBxZCU+glFLNOiBmyhRdCgT7CbuBGMJPfCEJwCr2E7TSYQBfzIwnBQD9h3Qrte7wiC0HjNX9huw+MZAvkXtmQQth4zV9I+EILsbuBQwoRKfQUllqI/VBAISaFfkKx0kLbptTIQkwK/YRqp4XIrjSgEJVCT2GthciuNKAQlUI/oR63kRz7elowIS6FfkIic4KbHIYU4lLoK5wR9KsjoYTw8doQIS/JYSwhEugrPBDcBD+cEJtCT6FYE/xnwgixQF/hiiDnTqGE6BR6ClVFcIs0wYRooK+wIDX2Xd8gQnwKPYW0Js0YQmSxHyJsxhF6pNBfuEV+JITQJ4WeQu1jIwiR47VBQjaG0CuF/kJ0DBd6pdBX6GEcLPRL4Su1Ur8U+guf3pd6ptC/L316PfRM4etUfN8U+gufPS71BfqPS588t/AZrw0R6rnFk+eH3kD/+aH3HP93rxT+8PT98J/j+67T/Msr/ukf3us0vmtt44TPWpvveumrCEvvNe8XEcqZ9+8WryLMvX97eg1h+9uT7++HryHsfj9E/waMPNc+aKB2wpLTb8D4YUK5GCtK9ABs5bEXQ/fAcqzAf9XSYz9Nd4XfSMe1oc/i7PbTYPdEUd5sDuXy+VEeNg3yfpTjnihkZ0pZOZlM3sYI/XdLXDqO+9pwexOpKMfhnZCfqHSc9iai9peq3ZhATQScL3ON0/5S1B5htdR/ZjZW6L89RXzZ8x5hzLhNbHQKp+9jxVQncQVvcud93oi9+pS0LWU04Pt7++fhCbns1YdP8/mfOoU/RxT+1EmEz9kv71uAp4iqaR/CEYHv7+2j+Ae0zV3emYE+iLpSvI2bwi6JbyX0YIXLe0/QEbsqJmOnsEviBDgdunl3DTj45stxu5ljtBUDlpGb9w9h75CKr1ErxTm6igE7auj6DimoXlA2SyGF8Ipx+x4waOA2eqU4B7RifHuXG/A+fgKV4hxtWwJMiL69jw9opmKeSAqhFeP7mQruZppEpTgHqGLcnYvhPNtEJlEpztFWDNdZuXdnm7imwYlUinO0FcNxctf9+TSOM4aOlWKaTrgrxsMZQ/ZzorpKkVhMrGd3PZ4TZT3rq6sU6YUtKT1nfdnOa+sqRXpRmpdf+s5rs5y5p/5IEvg2MVfxvjP3LOcmdpUixVgan6zecxON4xpRpZlCS8XoP/vSdH4pZdOxJcaYGSqG4fxSw/K++Eg1hTqJf/Ym0XQGbX/Vp9uxGdborRjGc4R7n8REK8U5+uYY5rOg+87zptukgW+T7eNXtpzn3ZvEWcrEydSVQve5+nT78XOSavxcPXam9nP1++5GoEJKwlIMImXPuM1+N4JxXZGmGP1f1XG/xStcHmsP1x0liPOE0wz3PTPuu4KSDshdQZCLWNINyH1Pzju7Ug7YnV2ue9dSDuC9a4678xIO6N156H1gqQT8/sMX7U8Rd1ja7yFNNjD3kL5k3cfdJWu/DzjJwN4H/P9/p/Nf4F7uv8Dd6lm2fZ3eRm3NDIswZ69CVL2l3i3Mli8yBqdqaVHYhFm5fwUi3Zu6UbcwO7zCNEMerAa78BWWbR4WZnDC9MuiuRAChdkm7YYqnW/SOYVpzzMM8wmcMOWG6myiMGG2Rr5P9ayg0tHJgIXZIcm6SPf2MoERZqVKbwCnlLXQI4XZMrkxqmK2oRpemOXbtCZTYmsZbHsJ9XwxpS6Vm+eD/kJdNVLpbyikSngIs5Km8TAqCutj8MJs0SSQRsobw6paAGE7hBubSAEDtSHC7JON26cK1rt0H1CY5bsRx3BU7qBFwl/YDnDwZxuE8QngMGaoMMsqPkanqvjjT9ixhNln8/zyzxvsEzhEqGdUz22quoFCZkohhVleyactp1IlK3QPM1iYZdNCPOdxVKKYur9OBKGeUxUyvlHJAjhPiiDUxnof16j29SDfYGHXVqP1OVQMap+BhHo8viFR6qPiZIMaY0cT6n513QR/IJVs1t79520EEepYVjxgIhXn1cDH7xKhhDqR84IGQSpOi3mQ9HURTqhjMS+Ux5FjN0EFV8U8wNN3jaBCHXn5xaRQHttxKFVCsq8yXPaOEVrYxmxdMJ0LxKCOKp17VqxnEb5NDGEbs3lVM86Fy6ltgnNWV/MYujZiCdvIF+VqVzMptbSlXpqu/peGaZmUrN6tykXolnkbMYWnyGflYb2qirpptowRxrZNUxfVan0oZzFpp/gfRrS5ePydhOsAAAAASUVORK5CYII=" alt="">
+               <br> <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eius quo, deleniti asperiores earum doloremque odio nam quidem autem! Itaque, voluptatibus natus. Assumenda qui delectus odit possimus? Vero, sapiente officia?</p>
+            </div>
+            <div class="f2">
+                <img src="https://cdn-icons-png.flaticon.com/128/4410/4410940.png" alt=""><br>
+                <h4>Search Optimization</h4><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim laudantium error aliquid facere saepe provident magni vero rerum praesentium. Quod ducimus rem eius vitae perspiciatis deserunt reprehenderit aut quisquam maiores.</p>
+            </div>
+            <div class="f3">
+                <img src="https://t3.ftcdn.net/jpg/05/84/07/50/240_F_584075074_I2BbHt7wPdDRujCffm1fiKFHeBgoQDQj.jpg" alt=""><br>
+                <h4>Online Shop</h4><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iure repellat molestias accusamus distinctio quae optio hic velit ut tempora quam doloribus obcaecati porro, neque at corporis est animi deleniti.</p>
+            </div>
+            <div class="f4">
+                <img src="https://cdn-icons-png.flaticon.com/128/889/889140.png" alt=""><br>
+                <h4>Social Media</h4><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, voluptas, suscipit dolore dignissimos reprehenderit atque architecto ut ducimus autem quibusdam sint aperiam. Placeat itaque sequi commodi magni doloremque. Quod, minima!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

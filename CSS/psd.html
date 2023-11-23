@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .one {
+            background-image: url(image/tem/b1.png);
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            position: relative;
+        }
+        .imglogo{
+            height: 40px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #f6f6f4;
+            font-size: 27px;
+            position: absolute;
+            margin-left: 1200px;
+            margin-top: 220px;
+        }
+
+        .top-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 35px;
+        }
+
+        .head a{
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 45px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .heading-1 {
+            font-size: 153px;
+            letter-spacing: 6px;
+            color: #000b2c;
+            font-weight: 500;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+        }
+
+        .sub-head-1 {
+            font-size: 33px;
+            letter-spacing: 2px;
+            line-height: 8px;
+            color: #ff4b00;
+            font-family: "Myriad Pro";
+        }
+
+        .sub-title-1 {
+            width: 500px;
+            height: 80px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #122341;
+            font-weight: 300;
+            font-family: "Roboto";
+        }
+
+        button {
+            width: 247px;
+            height: 58px;
+            border-radius: 15px;
+            background-color: #ff4a00;
+            border: none;
+            font-size: 25px;
+            color: white;
+        }
+
+        .heading-2 {
+            font-size: 125px;
+            letter-spacing: 5px;
+            line-height: 113px;
+            color: #000b2c;
+            font-weight: 700;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+        }
+
+        .two {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .title-1 {
+            margin-top: 250px;
+        }
+
+        .cup-1 {
+            position: absolute;
+            margin-left: 250px;
+
+        }
+
+        .cup-img-1 {
+            position: relative;
+            margin-left: 230px;
+            margin-top: 250px;
+            z-index: 2;
+            border: 15px dotted #ff4a00;
+            border-radius: 227px;
+        }
+
+        .three {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .four {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .five {
+            /* width: 100%; */
+            /* height: 500px; */
+            border-top: 5px solid #000b2c;
+            border-bottom: 5px solid #000b2c;
+            padding: 15px;
+        }
+
+        .gift-voucher {
+            width: 98%;
+            border: 10px solid #122341;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .circle-1 {
+            padding: 20px;
+        }
+
+        .gift-heading-3 {
+            font-size: 100px;
+            letter-spacing: 4px;
+            /* line-height: 166px; */
+            color: #122341;
+            font-weight: 500;
+            font-style: italic;
+            font-family: "Cormorant Garamond";
+            /* text-align: center; */
+        }
+
+        .gift-sub-heading {
+            width: 400px;
+            /* height: 50px; */
+            font-size: 50px;
+            letter-spacing: 2px;
+            /* line-height: 61px; */
+            color: #122341;
+            font-weight: 700;
+            font-family: "Roboto";
+            text-align: center;
+            border:2px solid coral;
+            text-align: center;
+            background-color: rgba(255, 127, 80, 0.253);
+            /* margin-left: 28%; */
+        }
+        .gift-sub-p{
+            text-align: center;
+            width: 450px;
+        }
+        .gift-main{
+            display: block;
+            margin-left: 15%;
+        }
+        .leaf{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: -60px;
+        }
+        .main-circle{
+            position: relative;
+        }
+        .gift-circle-img{
+            position: absolute;
+            margin-left: -270px;
+            margin-top: 80px;
+        }
+        .gift-circle-heading{
+            position: relative;
+            bottom: 280px;
+            margin-left: 180px;
+            font-size: 40px;
+            color: white;
+        }
+        .six{
+            width: 1400px;
+            height: inherit;
+            background-color: #f6f6f4;
+            margin: 60px;
+            align-items: center;
+            justify-content: center;
+        }
+        .aboutus{
+            font-size: xx-large;
+            text-align: center;
+        }
+        .p1{
+            font-size: 21px;
+            letter-spacing: 1px;
+            line-height: 28px;
+            color: #122341;
+            font-family: "Myriad Pro";
+            text-align: center;
+        }
+        .p2{
+            font-size: 21px;
+            letter-spacing: 1px;
+            line-height: 28px;
+            color: #122341;
+            font-family: "Myriad Pro";
+            text-align: center;
+        }
+        .customerreview{
+            text-align: center;
+        }
+        .customermain{
+            height: 700px;
+            width: 1400px;
+            background-color: #000b2c;
+            margin: 60px;
+            display: flex;
+        }
+        .customerimg{
+            height: 600px;
+            padding: 60px;
+        }
+        .customer2-1{
+            color: aliceblue;
+            text-align: center;
+            margin: 20px;
+            line-height: 20px;
+            letter-spacing: 1px;
+        }
+        .customer2-2{
+            color: aliceblue;
+            text-align: center;
+            margin: 20px;
+            line-height: 20px;
+            letter-spacing: 1px;
+        }
+        .weareopen{
+            text-align: center;
+        }
+        .open1{
+            height: 80px;
+            width: 250px;
+            background-color: #233e6a;
+            color: aliceblue;
+            font-size: 25px;
+            padding: 20px;
+            text-align: center;
+        }
+        .open2{
+            height: 80px;
+            width: 250px;
+            background-color: #233e6a;
+            color: aliceblue;
+            font-size: 25px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .ourbranch{
+            text-align: center;
+        }
+        .branch{
+            display: flex;
+            gap: 100px;
+            margin: 50px;
+        }
+        .ob1{
+            height: 500px;
+            width: 375px;
+            background-color: #233e6a;
+            color: #f6f6f4;
+        }
+        .ob2{
+            height: 500px;
+            width: 375px;
+            background-color: #233e6a;
+            color: #f6f6f4;
+        }
+        .ob3{
+            height: 500px;
+            width: 375px;
+            background-color: #233e6a;
+            color: #f6f6f4;
+        }
+        .txt1{
+            height: 150px;
+            width: 320px;
+            background-color: #000b2c;
+            margin: 20px;
+            padding: 5px;
+        }
+        .txt2{
+            height: 150px;
+            width: 320px;
+            background-color: #000b2c;
+            margin: 20px;
+            padding: 5px;
+        }
+        .txt3{
+            height: 150px;
+            width: 320px;
+            background-color: #000b2c;
+            margin: 20px;
+            padding: 5px;
+        }
+        .ten{
+            height: 400px;
+            background-color: #122341;
+        }
+        .footer1{
+            display: flex;
+            color: #f6f6f4;
+            padding: 50px;
+            gap: 300px;
+        }
+        .logo2{
+            display: flex;
+            align-items: center;
+            color: #f6f6f4;
+            font-size: 35px;
+            /* padding: 20px; */
+            /* margin-top: 50px; */
+        }
+        .information a{
+            text-decoration: none;
+            color: #f6f6f4;
+        }
+        .footer2{
+            margin-top: 20px;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+        .footernav{
+            margin-right: 50%;
+        }
+        .contactus a{
+            text-decoration: none;
+            color: #f6f6f4;
+        }
+        .footernav a{
+            text-decoration: none;
+            color: #f6f6f4;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <div class="top-nav">
+            <div class="head">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Blog</a>
+                <a href="">Shop</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="logo">
+                <img src="image/tem/2.png" alt="logo" class="imglogo">
+                <p>Coffee Cup</p>
+            </div>
+        </div>
+        <div class="main-heading">
+            <h1 class="heading-1">Coffee</h1>
+            <h3 class="sub-head-1">Everything You Love About Coffee</h3>
+            <p class="sub-title-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatibus magni
+                nihil veritatis optio quas. Ex excepturi labore, quae optio accusantium soluta commodi reprehenderit</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+    <div class="two">
+        <div class="title-1">
+            <h1 class="heading-2">Dark <br>Coffees</h1>
+            <button>Order Now</button>
+        </div>
+        <div class="image-1">
+            <img src="image/tem/Shape  (1).png" alt="">
+        </div>
+        <div class="cup-1">
+            <img class="cup-img-1" src="image/tem/i2.png" alt="">
+        </div>
+    </div>
+    <div class="three">
+        <div class="image-2">
+            <img src="image/tem/shape-2.png" alt="">
+        </div>
+        <div class="title-1">
+            <h1 class="heading-2">Cold <br>Coffees</h1>
+            <button>Order Now</button>
+        </div>
+        <div class="cup-1">
+            <img class="cup-img-1" src="image/tem/i1.png" alt="">
+        </div>
+    </div>
+    <div class="four">
+        <div class="title-1">
+            <h1 class="heading-2">Hot <br>Coffees</h1>
+            <button>Order Now</button>
+        </div>
+        <div class="image-1">
+            <img src="image/tem/i4.png" alt="">
+        </div>
+        <div class="cup-1">
+            <img class="cup-img-1" src="image/tem/Place Your Image Here (Double Click to Edit)2.png" alt="">
+        </div>
+    </div>
+    <div class="five">
+        <div class="gift-voucher">
+            <div class="main-circle">
+                <img class="circle-1" src="img/1.png" alt="">
+                <img class="gift-circle-img" src="image/tem/2.png" alt="image">
+                <h1 class="gift-circle-heading">FREE</h1>
+            </div>
+        <div>
+            <img class="leaf" src="image/tem/leaf.png" alt="">
+        </div>
+            <div class="gift-main">
+                <h1 class="gift-heading-3">Gift Voucher</h1>
+                <h3 class="gift-sub-heading">1 Cup of Coffee</h3>
+                <p class="gift-sub-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor esse sapiente
+                    atque possimus. Ad
+                    autem
+                    quaerat est vero, dignissimos maiores nihil nemo totam impedit nulla ipsam fugit facilis et
+                    architecto.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="six">
+        <h1 class="aboutus">About Us</h1>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas, temporibus, distinctio necessitatibus quasi assumenda fugit quos exercitationem provident delectus pariatur magni dolorum? Aliquid, asperiores voluptatibus reprehenderit odio necessitatibus deleniti.</p>
+        <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias in reprehenderit repudiandae iusto non quia dolore impedit culpa quas maiores iure, perferendis consequatur nihil expedita? Maxime voluptas cumque totam debitis saepe, quisquam eaque, corporis perspiciatis facilis modi sunt repellat reprehenderit itaque iusto accusantium aspernatur similique exercitationem inventore enim, ex eveniet repellendus suscipit dolore vitae! Atque quae ratione cum fuga velit officia? Cum magni corrupti possimus distinctio iusto dignissimos! Explicabo distinctio eos officia iste asperiores odio nihil ipsa, dignissimos enim, culpa, magni ab fugiat non. Repudiandae delectus recusandae numquam ad aspernatur non laborum nihil nulla. Veniam vitae magnam asperiores architecto perspiciatis?</p>
+    </div>
+    <div class="seven">
+        <h1 class="customerreview">Customer Reviews</h1>
+        <div class="customermain">
+            <div class="customer1">
+                <img src="image/tem/5.png" alt="" class="customerimg">
+            </div>
+            <div class="customer2">
+                <div class="customer2-1">
+                    <h1>John Peter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem voluptates in, reprehenderit vero, temporibus, placeat quidem magni quod pariatur tenetur. Possimus blanditiis, quaerat impedit quia dolorum qui odit, quod, ipsum officiis porro similique facilis distinctio corrupti labore molestiae. Eveniet odit, cumque adipisci non beatae, placeat, quibusdam vel nisi facere aspernatur voluptate necessitatibus itaque corrupti? Sed dicta vel, a sit dolor, reprehenderit, eligendi dolores deleniti sequi incidunt numquam voluptates! Soluta quis officiis molestias fugiat harum rerum quibusdam sed reprehenderit illo, libero laboriosam, doloremque eos corrupti necessitatibus iusto nostrum impedit repellendus autem eum ratione. Aspernatur possimus veniam doloremque, itaque perspiciatis illo.</p>
+                </div><br><br><br><br>
+                <div class="customer2-2">
+                    <h1>Ella Thomson</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quo non in obcaecati suscipit consectetur labore necessitatibus soluta sint impedit possimus eos ea doloribus, dolore eaque aperiam. Atque laborum quo a veniam voluptates tempora aspernatur, quidem numquam? Quaerat excepturi ipsa pariatur repellendus enim molestiae quod nostrum, ab dignissimos fugit rem, in eos reprehenderit, delectus commodi distinctio inventore eaque odio incidunt soluta vitae. Asperiores sit esse cupiditate porro, animi velit minima sed, fugit repellat iusto sunt beatae hic ratione explicabo iste voluptatem molestiae magnam corrupti facilis nemo sequi ex illum ipsa commodi! Quis, et. Incidunt, consequuntur recusandae. Dolores molestias quasi totam!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="eight">
+        <div align="center">
+            <h1 class="weareopen">We Are Open</h1>
+            <div class="open1">Monday - Friday <br>
+                8:00 am - 11:30pm</div>
+            <div class="open2">Saturday and Sunday <br>
+                9:00 am - 10:30pm</div>
+        </div>
+    </div>
+    <div class="nine">
+        <div>
+            <h1 class="ourbranch">Our Branches</h1>
+        </div>
+        <div class="branch">
+            <div class="ob1">
+                <div class="branchimg1">
+                    <img src="image/tem/branch1.png" alt="">
+                </div>
+                <div class="btnnewyork">
+                    <button>New York</button>
+                </div>
+                <div class="txt1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam quos dolorum, culpa saepe molestiae quaerat excepturi, obcaecati odit pariatur porro commodi at libero, maiores quisquam eveniet impedit animi? Cumque?</p>
+                </div>
+            </div>
+            <div class="ob2">
+                <div class="branchimg2">
+                    <img src="image/tem/branch2.png" alt="">
+                </div>
+                <div class="btntexas">
+                    <button>Texas</button>
+                </div>
+                <div class="txt2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam quos dolorum, culpa saepe molestiae quaerat excepturi, obcaecati odit pariatur porro commodi at libero, maiores quisquam eveniet impedit animi? Cumque?</p>
+                </div>
+            </div>
+            <div class="ob3">
+                <div class="branchimg3">
+                    <img src="image/tem/branch3.png" alt="">
+                </div>
+                <div class="btnnewjersy">
+                    <button>New Jersy</button>
+                </div>
+                <div class="txt3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam quos dolorum, culpa saepe molestiae quaerat excepturi, obcaecati odit pariatur porro commodi at libero, maiores quisquam eveniet impedit animi? Cumque?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ten">
+        <div class="footer1">
+            <div class="logo2">
+                <img src="image/tem/2.png" alt="">
+                <p>Coffee Cup</p>
+            </div>
+            <div>
+                    <h1>Information</h1>
+                <p class="information">
+                    <a href="">About Us</a><br>
+                    <a href="">Branches</a><br>
+                    <a href="">Menu</a><br>
+                    <a href="">Contact</a><br>
+                    <a href="">Map</a><br>
+                </p>
+            </div>
+            <div>
+                <h1>Contact Us</h1>
+                <p class="contactus">
+                    <a href="">Support</a><br>
+                    <a href="">your_id@gmail.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="footernav">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Blog</a>
+                <a href="">Shop</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f fa-sm" style="color: #ef501f;"></i> &nbsp; &nbsp;
+                <i class="fa-brands fa-instagram" style="color: #e14714;"></i> &nbsp; &nbsp;
+                <i class="fa-brands fa-twitter" style="color: #e14714;"></i> &nbsp; &nbsp;
+                <i class="fa-brands fa-youtube" style="color: #e14714;"></i>&nbsp; &nbsp;
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

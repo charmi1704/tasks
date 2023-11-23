@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            height: 100px;
+            background-color: aqua;
+        }
+        @media (min-width:320px) and (max-width:480px) {
+            .one-1{
+                background-color: red;
+                width: 100%;
+            }
+            .one-2{
+                background-color: aqua;
+                width: 100%;
+            }
+            .one-3{
+                background-color: gray;
+                width: 100%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        @media screen and (min-width:481px) {
+            .one-1{
+                background-color: red;
+                width: 50%;
+            }
+            .one-2{
+                background-color: aqua;
+                width: 50%;
+            }
+            .one-3{
+                background-color: gray;
+                width: 100%;
+            }
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (min-width:769px) {
+            .one-1{
+                background-color: red;
+                width: 25%;
+            }
+            .one-2{
+                background-color: aqua;
+                width: 50%;
+            }
+            .one-3{
+                background-color: gray;
+                width: 25%;
+            }
+            .main{
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="main">
+        <div class="one-1">
+            <ul>
+                <li>dscds</li>
+                <li>dcvdsv</li>
+                <li>fvdxfs</li>
+            </ul>
+        </div>
+        <div class="one-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam provident rerum alias enim voluptates ipsum quia sunt maiores. Beatae atque reprehenderit voluptas est. Impedit quae doloribus temporibus similique fugit repudiandae.</div>
+        <div class="one-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem ipsa laboriosam. Quibusdam, nesciunt. Iure voluptatem laudantium doloremque ab laboriosam corporis similique id tempore delectus sed libero, unde velit quia?</div>
+    </div>
+</body>
+</html>
